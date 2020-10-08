@@ -2,8 +2,8 @@
 using namespace std;
 typedef long long ll;
 typedef pair<int, int> pii;
-#define all(v) (v).begin(),(v).end()
-
+typedef pair<ll, ll> pll;
+#define all(v) (v).begin(), (v).end()
 
 int main()
 {
