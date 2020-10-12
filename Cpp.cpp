@@ -5,12 +5,10 @@ using namespace std;
 typedef long long ll;
 typedef pair<int, int> pii;
 typedef pair<ll, ll> pll;
-
-inline ll Mod(ll x, ll mod) return x % mod >= 0 ? x % mod : x % mod + mod;
+inline ll Mod(ll x, ll mod) { return x % mod >= 0 ? x % mod : x % mod + mod; }
 
 int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(0);
-    cout << Mod(-19, 10);
 }
